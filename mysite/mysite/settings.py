@@ -82,10 +82,10 @@ if os.getenv('GAE_APPLICATION', None):
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'HOST': '/cloudsql/myproject-255110:us-central1:sqlinstance',
-            'USER': 'dbuser',
+            'HOST': '/cloudsql/high-magpie-251911:us-central1:gullykaart',
+            'USER': 'Chitrarth',
             'PASSWORD': '',
-            'NAME': 'database1',
+            'NAME': 'gully',
         }
     }
 else:
@@ -98,8 +98,8 @@ else:
             'ENGINE': 'django.db.backends.mysql',
             'HOST': '127.0.0.1',
             'PORT': '3306',
-            'NAME': 'database1',
-            'USER': 'dbuser',
+            'NAME': 'gully',
+            'USER': 'Chitrarth',
             'PASSWORD': '',
         }
     }
